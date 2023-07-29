@@ -16,7 +16,7 @@ const SocialLinks = () => {
                 </>
 
             ),
-            href:'https://linkedin.com',
+            href:'https://www.linkedin.com/in/fayas-abdulmanaf-32034a262/',
             target:"_blank",
             style:'rounded-tr-md'
 
