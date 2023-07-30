@@ -14,7 +14,8 @@ const About = () => {
           <br className='md:hidden'/><br className='md:hidden'/><br className='md:hidden'/>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
           <div>
-            <p className='text-xl mt-20'>Hello, I'm Fayas, a former pharmacist turned IT enthusiast. After completing my pharmacy course, I realized my true passion lies in technology. Alongside my pharmacy career, I honed my programming skills in Python and React. I've had the pleasure of creating various websites, including personal blogs, e-commerce projects, and more. Now, I'm actively seeking a rewarding career in the IT industry, motivated to excel as a programmer.
+            <p className='text-xl mt-20'>Hello, I'm Fayas, a former pharmacist turned IT enthusiast. After completing my pharmacy course, I realized my true passion lies in technology. Alongside my pharmacy career, I honed my programming skills in Python and React. I've had the pleasure of creating various websites, including personal blogs,
+            e-commerce projects and more. Now, I'm actively seeking a rewarding career in the IT industry, motivated to excel as a programmer.
             </p>
             <br/>
             <p className='text-xl'>Nothing is possible without consistency, patience, and the dream to achieve it!</p>
