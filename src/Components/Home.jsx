@@ -25,6 +25,7 @@ const Home = () => {
        Let's build something incredible together!
            </p>
             <div>
+            <center>
             <Link
               to='portfolio' smooth              
               duration={500}
@@ -34,7 +35,18 @@ const Home = () => {
                     <span className='group-hover:rotate-90 duration-300'>
                     <MdArrowRight size={30} className='ml-1'/>
                     </span>
+                    
                 </Link>
+                
+                <a
+              href='/fayas.pdf'
+              className=" md:hidden group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              download={true}
+            >
+              Download Cv
+              </a>
+              </center>
+                
             </div>
         </div>
         <div>
