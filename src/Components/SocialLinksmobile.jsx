@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin,FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinksmobile = () => {
   const yourWhatsAppNumber='98470439803'
@@ -25,15 +24,9 @@ const SocialLinksmobile = () => {
       href: 'mailto:fayasabdulmanaf.k@gmail.com',
       target: 'blank',
     },
+
     {
-      id: 4,
-      child: <BsFillPersonLinesFill size={30} />,
-      href: '/fayas.pdf',
-      style: 'rounded-br-md',
-      download: true,
-    },
-    {
-    id:5,
+    id:4,
     child:(
     <>
     <FaWhatsapp size={30}/></>
@@ -59,7 +52,7 @@ const SocialLinksmobile = () => {
             <a
               href={href}
               className='flex justify-between items-center w-full text-white px-3'
-              download={download}
+            
               target="_blank"
               rel="noreferrer"
             >
