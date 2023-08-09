@@ -7,6 +7,7 @@ import Ecommerce from '../assets/portfolio/Easyshop.jpg'
 const Portfolio = () => {
     const portfolios=[{
         id:1,
+        title:'Proshop',
         src:Proshop,
         href:'https://github.com/fayas371/E-commerce',
         target:"_blank",
@@ -14,12 +15,14 @@ const Portfolio = () => {
     {
         id:2,
         src:Blog,
+        title:'My blog',
         href:'https://github.com/fayas371/Blog',
         target:"_blank",
 
     },{
         id:3,
         src:Ecommerce,
+        title:'Easyshop',
         href:'https://github.com/fayas371/Ecommerce-django',
         target:"_blank",
     },
@@ -35,14 +38,18 @@ const Portfolio = () => {
 
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-            {portfolios.map(({id,src,href,target})=>(
+            {portfolios.map(({id,src,href,target,title})=>(
                 <div key={id}
                 className='shadow-md shadow-gray-600 rounded-lg'>
+                    <center>
+                    <p className='px-6 py-3  duration-200 hover:scale-105'>{title}</p>
+                    </center>
                     <img src={src} alt="" 
                     className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center '>
-        
-                        <button className='px-6 py-3 m-4 duration-200 hover:scale-105'><a href={href} target={target}> Code</a></button>
+                    
+                    
+                    <button className='px-6 py-3 m-4 duration-200 hover:scale-105'><a href={href} target={target}> Code</a></button>
                     </div>
                 </div>
             ))}
