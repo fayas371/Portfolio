@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin,FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const SocialLinksmobile = () => {
-  const yourWhatsAppNumber='98470439803'
+  const yourWhatsAppNumber = "9847043803";
   const links = [
     {
       id: 1,
